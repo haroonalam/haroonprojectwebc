@@ -1,0 +1,82 @@
+* {
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 5%;
+}
+
+.navbar-brand {
+    margin-right: auto;
+    color: white;
+}
+
+li,
+a {
+    text-decoration: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_Links li a:hover {
+    color: #007bb5;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 80%;
+}
+
+.carousel-caption div {
+    display: table-cell;
+    vertical-align: center;
+    text-align: center;
+    float: right;
+}
+
+.carousel-caption h1 {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.card-text {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    vertical-align: center;
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    padding: 30px;
+    margin: 20px;
+}

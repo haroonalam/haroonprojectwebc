@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/01d2a66f63.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="projectcss.css">
+
+</head>
+
+<body>
+    <!---NAVIGATION BAR--->
+    <header>
+        <a class="navbar-brand" href="#">EXO</a>
+        <nav>
+            <ul class="nav_links pt-4">
+                <li><a href="#">Home</a></li>
+                <li><a href="drop.html">Start Bidding</a></li>
+                <li><a href="startbidding.html">About Us</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/bicycle-1872682_1920.jpg" alt="First slide" height="800px">
+                <div class="carousel-caption">
+                    <h1>Our New <br>Arrivals <br>Are Here</h1>
+                    <h2>Make A Statement</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/girl-4181395_1920.jpg" alt="Second slide" height="800px">
+                <div class="carousel-caption">
+                    <h1>Find Out <br>The Cheapest <br>Prices</h1>
+                    <h2>Try Drop Now</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/bazaar-1853361_1920.jpg" alt="Third slide" height="800px">
+                <div class="carousel-caption">
+                    <h1>Looking for <br>Something?</h1>
+                    <h2>Check Out The Bid Section</h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!---Featured Items----->
+    <hr>
+    <h1 class="text-center pt-3 ">Featured</h1>
+    <hr>
+    <div class="container pt-5 ">
+        <div class="row">
+            <div class="col pt-3">
+                <div class="card zoom">
+                    <img class="card-img-top " alt="img" src="img/featured/shoes-801949_640.jpg" height="480">
+                    <div class="card-text">
+                        <h1>SALE</h1>
+                        <h2>upto</h2>
+                        <h1>75%</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col pt-3">
+                    <div class="card zoom">
+                        <img class="card-img-top " alt="img" src="img/featured/bag-1410823_640.jpg" height="240">
+                        <div class="card-text">
+                            <h1>SALE</h1>
+                            <h2>upto</h2>
+                            <h1>85%</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pt-3">
+                    <div class="card zoom">
+                        <img class="card-img-top " alt="img" src="img/featured/bracelet-1198740_640.jpg" height="240">
+                        <div class="card-text">
+                            <h1>SALE</h1>
+                            <h2>upto</h2>
+                            <h1>35%</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col pt-3">
+                    <div class="card zoom">
+                        <img class="card-img-top " alt="img" src="img/featured/clothes-line-1321543_640.jpg" height="240">
+                        <div class="card-text">
+                            <h1>SALE</h1>
+                            <h2>upto</h2>
+                            <h1>45%</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pt-3">
+                    <div class="card zoom">
+                        <img class="card-img-top " alt="img" src="img/featured/shoes-1245920_640.jpg" height="240">
+                        <div class="card-text">
+                            <h1>SALE</h1>
+                            <h2>upto</h2>
+                            <h1>25%</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Shopping Categories--->
+    <hr>
+    <h1 class="text-center pt-3 ">Categories</h1>
+    <hr>
+    <div class="container text-center pt-5">
+        <button type="button" class="btn btn-outline-dark " data-toggle="tab" href="#men">MEN'S</button>
+        <button type="button" class="btn btn-outline-dark" data-toggle="tab" href="#women">WOMEN'S</button>
+        <button type="button" class="btn btn-outline-dark" data-toggle="tab" href="#household">HOUSEHOLDS</button>
+        <button type="button" class="btn btn-outline-dark" data-toggle="tab" href="#cosmetics">COSMETICS</button>
+        <button type="button" class="btn btn-outline-dark" data-toggle="tab" href="#electronics">ELECTRONICS</button>
+    </div>
+    <div class="tab-content">
+        <div id="men" class="tab-pane fade in active">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/shoes-801949_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/fashion-1031469_1920.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/bag-1410823_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/bracelet-1198740_640.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/clothes-line-1321543_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/shoes-1245920_640.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="women" class="tab-pane fade in active">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/shoes-801949_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/fashion-1031469_1920.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/bag-1410823_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/bracelet-1198740_640.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/clothes-line-1321543_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/shoes-1245920_640.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="household" class="tab-pane fade in active">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/shoes-801949_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/fashion-1031469_1920.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/bag-1410823_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/bracelet-1198740_640.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/clothes-line-1321543_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/shoes-1245920_640.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cosmetics" class="tab-pane fade in active">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/shoes-801949_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/fashion-1031469_1920.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/bag-1410823_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/bracelet-1198740_640.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/clothes-line-1321543_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/shoes-1245920_640.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="electronics" class="tab-pane fade in active">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/shoes-801949_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/fashion-1031469_1920.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/bag-1410823_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/bracelet-1198740_640.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/clothes-line-1321543_640.jpg" height="240">
+                            </div>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card zoom">
+                                <img class="card-img-top " alt="img" src="img/featured/shoes-1245920_640.jpg" height="240">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h3 class="w3-center">WHERE WE WORK</h3>
+        <p class="w3-center"><em>Provide Feedback</em></p>
+
+        <div class="w3-row w3-padding-32 w3-section">
+            <div class="w3-col m4 w3-container">
+                <img src="img/girl-4181395_1920.jpg" class="w3-image w3-round" style="width:100%">
+            </div>
+            <div class="w3-col m8 w3-panel">
+                <div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Faisalabad,Pakistan<br>
+                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +090078601<br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+                </div>
+
+                <form>
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                        </div>
+                    </div>
+                    <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                    <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        <p>All rights reserved Muhammad Haroon Alam</p>
+    </footer>
+
+</body>
+
+</html>
